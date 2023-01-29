@@ -1,0 +1,77 @@
+.my_certificates_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 27px 0 33px 0;
+}
+.certificates_header_container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.certificates_data_container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 15px;
+}
+.cert_data_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: #fff;
+  flex-direction: column;
+  height: 250px;
+  width: 332px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+  transition: ease-in-out 0.7s;
+}
+.cert_data_container:active {
+  transform: scale(0.4);
+}
+.overlay_section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 21px;
+  justify-content: space-around;
+}
+.overlay_section h3 {
+  padding: 0 10px 0 0px;
+}
+
+.cert_collection {
+  background: #e0e0e0;
+  border-radius: 3px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.cert_collection img {
+  height: 160px;
+}
+
+@media screen and (max-width: 580px) {
+  .certificates_header_container {
+    width: 100%;
+  }
+  .cert_data_container {
+    width: 90%;
+  }
+}

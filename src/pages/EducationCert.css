@@ -1,0 +1,20 @@
+.educ_cert {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #b0bec5;
+  height: 100%;
+  padding: 80px 0;
+}
+h2 {
+  margin: 100px;
+}
+.educ_cert h2 {
+  color: #24284d;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .educ_cert {
+    padding: 0;
+  }
+}
